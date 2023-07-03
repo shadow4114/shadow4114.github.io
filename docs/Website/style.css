@@ -1,0 +1,13 @@
+/* styles.css */
+
+/* Reset default list styling */
+nav ul {
+    list-style-type: none;
+  }
+  
+  /* Display navigation links vertically */
+  nav ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+  

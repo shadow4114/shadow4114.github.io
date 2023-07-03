@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <style>
+    /* Basic styling */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .content {
+      padding: 20px;
+    }
+
+    .form-group {
+      margin-bottom: 10px;
+    }
+
+    .form-group label {
+      display: block;
+    }
+
+    .form-group input[type="text"],
+    .form-group input[type="password"] {
+      padding: 5px;
+      width: 200px;
+    }
+
+    .form-group .button {
+      background-color: #333;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <h1>Login</h1>
+    <form>
+      <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+
+      <div class="form-group">
+        <input type="submit" onclick="suc()" value="Login" class="button">
+      </div>
+    </form>
+  </div>
+  
+</body>
+</html>
